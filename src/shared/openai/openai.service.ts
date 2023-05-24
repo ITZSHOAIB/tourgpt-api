@@ -14,7 +14,7 @@ export class OpenAIService {
     const response = await this.openAIApi.createCompletion({
       model: 'text-davinci-003',
       prompt: prompt,
-      max_tokens: 300,
+      max_tokens: 500,
       temperature: 0,
     });
 

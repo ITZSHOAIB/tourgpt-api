@@ -30,8 +30,6 @@ export class ItineraryController {
   async generate(
     @Body() itinerartRequest: ItineraryRequest,
   ): Promise<ItineraryResponse> {
-    const { days, destination, interests } = itinerartRequest;
-    const prompt = `Write an itinerary for a ${days} day trip to ${destination} for a traveller that is interested in: ${interests}`;
-    return this.itineraryService.generateItinerary(prompt);
+    return this.itineraryService.generateItinerary(itinerartRequest);
   }
 }
