@@ -1,12 +1,16 @@
 ## Description
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+TourGPT is a Rest API Application built using [NestJS](https://nestjs.com/) and OpenAI. The application is able to generate your trip's itinerary based on your input data.
 
 ## Installation
 
 ```bash
 $ npm install
 ```
+
+## Before Running
+
+Create a `.env` file with your openai API secret key as `OPENAI_API_KEY`.
 
 ## Running the app
 
