@@ -21,6 +21,10 @@ export class ItineraryRequest implements IItineraryRequest {
   @IsNotEmpty()
   @IsString()
   @ApiProperty()
+  origin: string;
+  @IsNotEmpty()
+  @IsString()
+  @ApiProperty()
   destination: string;
   @IsNotEmpty()
   @IsString()
