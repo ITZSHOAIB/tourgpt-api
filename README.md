@@ -1,6 +1,6 @@
 ## Description
 
-TourGPT is a Rest API Application built using [NestJS](https://nestjs.com/) and OpenAI. The application is able to generate your trip's itinerary based on your input data.
+TourGPT is a Rest API Application built using [NestJS](https://nestjs.com/) and OpenAI. The application is able to generate your trip's itinerary based on your input data. After running the application just hit `/api` endpoint to spin up the Swagger Documentation.
 
 ## Installation
 
